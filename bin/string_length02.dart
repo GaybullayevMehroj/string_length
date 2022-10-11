@@ -6,6 +6,18 @@
     Returns:
         True or False
      */
+bool func(String text) {
+  int a;
+  bool c = true;
+  a = text.length;
+  if (a % 2 == 0) {
+    c = true;
+  } else {
+    c = false;
+  }
+  return c;
+}
+
 void main() {
-  // write your code here
+  print(func('codeschooll'));
 }

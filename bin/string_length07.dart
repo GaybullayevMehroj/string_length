@@ -7,6 +7,13 @@
     Returns:
         string
 */
+String func(String s1, String s2) {
+  if (s1.length % 2 == 0) {
+    return s1;
+  }
+  return s2;
+}
+
 void main() {
-  // write your code here
+  print(func('mehrojbek', '8383'));
 }

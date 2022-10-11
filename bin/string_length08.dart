@@ -8,5 +8,6 @@
         str: answer
 */
 void main() {
-  // write your code here
+  String s = 'codeschool';
+  print(s.toLowerCase()); // write your code here
 }

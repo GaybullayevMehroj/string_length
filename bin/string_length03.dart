@@ -7,6 +7,16 @@
     Returns:
         True or False
 */
+bool func(String a, String b) {
+  bool c = true;
+  if (a.length == b.length) {
+    c = true;
+  } else {
+    c = false;
+  }
+  return c;
+}
+
 void main() {
-  // write your code here
+  print(func('mehroj', '8383'));
 }

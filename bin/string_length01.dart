@@ -5,7 +5,10 @@
         a: string
     Returns:
         length of string */
+int func(String text) {
+  return text.length;
+}
 
 void main() {
-  // write your code here
+  print(func('Codeschool'));
 }
