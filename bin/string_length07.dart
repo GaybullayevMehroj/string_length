@@ -15,5 +15,5 @@ String func(String s1, String s2) {
 }
 
 void main() {
-  print(func('mehrojbek', '8383'));
+  print(func('mehrojbek', '23232'));
 }
