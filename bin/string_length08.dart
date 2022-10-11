@@ -7,7 +7,20 @@
     Returns:
         str: answer
 */
+String func(String s) {
+  int a;
+  int b;
+  a = s.length;
+  if (a % 2 == 1) {
+    b = a ~/ 2;
+    return s[b];
+  } else if (a % 2 == 0) {
+    b = a ~/ 2;
+    return s[b - 1] + s[b];
+  }
+  return s;
+}
+
 void main() {
-  String s = 'codeschool';
-  print(s.toLowerCase()); // write your code here
+  print(func('mekooj'));
 }
